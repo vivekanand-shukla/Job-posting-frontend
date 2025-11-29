@@ -1,7 +1,7 @@
 function useMAinUrl(){
      const localUrl= `http://localhost:3000`
-     const cloudUrl = `later`
-     const url = localUrl
+     const cloudUrl = `https://job-posting-backend-tau.vercel.app`
+     const url = cloudUrl
      return url
 }
 
