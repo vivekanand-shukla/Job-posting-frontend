@@ -1,0 +1,27 @@
+.btnsdisplay{
+   display: flex;
+   flex-direction: row;
+   gap:10px
+ 
+    
+}
+
+
+
+@media (max-width: 768px) {
+
+
+.btnsdisplay{
+     display: flex;
+   flex-direction: column;
+     gap:10px
+ 
+}
+
+.searchbar{
+
+      width: 100% !important; 
+}
+  
+
+}
