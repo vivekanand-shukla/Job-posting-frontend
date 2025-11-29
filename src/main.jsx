@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Details from './Pages/Details.jsx'
-import Post from './Pages/post.jsx'
+import Post from './Pages/Post.jsx'
 import {createBrowserRouter ,RouterProvider} from "react-router-dom"
 import { ToastContainer } from 'react-toastify';
 const routes = createBrowserRouter([
